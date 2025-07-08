@@ -1,0 +1,1 @@
+document.body.innerHTML="Good Morning"; // This code sets the inner HTML of the body element to "Good Morning"
