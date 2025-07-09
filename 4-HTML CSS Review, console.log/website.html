@@ -8,6 +8,7 @@
         background-color: rgb(231, 31, 31);
         color: white;
         border: none;
+        cursor: pointer;
       }
 
       .yellow-button {
@@ -18,8 +19,12 @@
     </style>
   </head>
   <body>
-    <button title="tooltip" class="red-button">hello</button>
-    <p>paragraph of <button class="yellow-button">hello</button> text</p>
+    <button title="good job" class="red-button" onclick="alert('good job');">
+      hello
+    </button>
+    <p>
+      paragraph of <button class="yellow-button">hello</button> text
+    </p>
     <script>
       alert("hello");
     </script>
