@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booleans</title>
+</head>
+<body>
+  <script>
+    // Booleans are a data type that can be either true or false.
+    let isRaining = false;
+    let isSunny = true;
+
+    // You can use booleans in if statements to control the flow of your program.
+    if (isRaining) {
+      console.log("Don't forget your umbrella!");
+    } else {
+      console.log("Enjoy the sunshine!");
+    }
+
+    // You can also combine booleans using logical operators.
+    let hasUmbrella = true;
+    if (isRaining && hasUmbrella) {
+      console.log("You are prepared for the rain.");
+    } else if (isRaining && !hasUmbrella) {
+      console.log("You might get wet!");
+    } else {
+      console.log("No rain today, enjoy!");
+    }
+
+    console.log(true && false); // false
+    console.log(true || false);  // true  
+    console.log(!true);          // false
+    console.log(!false);         // true
+  </script>
+</body>
+</html>
